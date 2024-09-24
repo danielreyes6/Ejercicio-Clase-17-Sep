@@ -21,10 +21,35 @@ Este archivo contiene el código principal que:
 Este archivo contiene la definición de la gramática en formato de texto. Cada regla de producción está en una línea separada con el formato `A -> B C`, donde `A` es un no terminal y `B C` pueden ser terminales o no terminales.
 
 #### Ejemplo de gramática:
-```plaintext
+plaintext
 S -> NP VP
 NP -> Det N
 VP -> V NP
 Det -> 'el'
 N -> 'gato'
 V -> 'come'
+Instalación y uso
+
+    Clona este repositorio:
+
+    bash
+
+    git clone https://github.com/usuario/nombre-del-repositorio.git
+
+Instala las dependencias necesarias:
+
+    bash
+
+    pip install networkx matplotlib
+
+Ejecuta el script para generar y visualizar el árbol:
+
+    bash
+
+    python arbol_gramatica.py
+
+    Asegúrate de que el archivo gramatica.txt esté en el mismo directorio que el script o cambia la ruta dentro del código si es necesario.
+
+Resultado esperado
+
+El programa leerá la gramática desde el archivo gramatica.txt, generará un árbol de derivación y lo mostrará gráficamente. Por ejemplo, con la gramática proporcionada, se generará un árbol que muestra la estructura de la oración "el gato come".
