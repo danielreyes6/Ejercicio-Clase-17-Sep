@@ -1,4 +1,4 @@
-
+Marco Duarte, Johan Garcia, William Cordero, Daniel Reyes
 # Generador de Árboles para Gramáticas
 
 Este proyecto genera un árbol de derivación a partir de una gramática libre de contexto, usando el símbolo inicial y mostrando las reglas de producción aplicadas. La implementación se realiza en Python y utiliza `networkx` para la creación del gráfico del árbol y `matplotlib` para su visualización.
